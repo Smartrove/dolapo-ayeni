@@ -15,11 +15,16 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   description,
   width,
 }) => (
-  <div className="bg-white p-6 flex flex-col lg:flex-row items-start lg:items-start gap-[2rem] lg:gap-6">
-    <div className="w-[100px] h-12 bg-blue-50 rounded-lg flex items-center justify-center flex-shrink-0">
-      <img src={icon} width={width} height={98} alt="" />
+  <div className="bg-white p-6 flex flex-col lg:flex-row items-start gap-6">
+    <div className="w-[80px] h-[80px] bg-blue-50 rounded-lg flex items-center justify-center flex-shrink-0">
+      <img
+        src={icon}
+        className="max-w-full max-h-full object-contain"
+        width={width}
+        alt=""
+      />
     </div>
-    <div className="flex-1 mt-[-2rem]">
+    <div className="flex-1">
       <h3 className="text-xl font-semibold mb-2 text-gray-800">{title}</h3>
       <p className="text-gray-600 mb-4">{description}</p>
       <button className="flex items-center hover:text-blue-700 transition-colors">

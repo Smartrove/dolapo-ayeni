@@ -1,6 +1,5 @@
 import AboutSection from "./AboutSection";
 import AnimatedButtonsWithOverlay from "./AminatedButtons";
-import Footer from "./Footer/Footer";
 import Grow from "./Grow";
 import MainPageBanner from "./MainPageBanner";
 import Partners from "./Partners";
@@ -17,7 +16,6 @@ const Landingpage = () => {
       <Testimonial />
       <AnimatedButtonsWithOverlay />
       <Partners />
-      <Footer />
     </div>
   );
 };

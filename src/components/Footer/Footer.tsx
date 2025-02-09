@@ -34,7 +34,7 @@ export default function Footer() {
               <p className="text-[18px]  text-[#fff]">You + Us = Awesome.</p>
             </div>
 
-            <div className="bg-[#F8F8F8] p-3 rounded-lg">
+            <div className="bg-[#F8F8F8] p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-4">Links</h3>
               <ul className="space-y-3">
                 <li>
@@ -48,7 +48,7 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-blue-500">
+                  <a href="/portfolio" className="hover:text-blue-500">
                     Portfolio
                   </a>
                 </li>
@@ -58,7 +58,7 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-blue-500">
+                  <a href="/blog" className="hover:text-blue-500">
                     Blog
                   </a>
                 </li>
@@ -71,7 +71,7 @@ export default function Footer() {
             </div>
 
             <div>
-              <div className="bg-[#F8F8F8] p-3 rounded-lg">
+              <div className="bg-[#F8F8F8] p-6 rounded-lg">
                 <h3 className="font-semibold text-lg mb-4">Support</h3>
                 <ul className="space-y-3">
                   <li>
@@ -104,16 +104,16 @@ export default function Footer() {
                 </ul>
               </div>
 
-              <div className="mt-12 bg-[#F8F8F8] p-3 rounded-lg">
+              <div className="mt-12 bg-[#F8F8F8] p-6 rounded-lg">
                 <h3 className="font-semibold text-lg mb-4">Legal</h3>
                 <ul className="space-y-3">
                   <li>
-                    <a href="#" className="hover:text-blue-500">
+                    <a href="/termofuse" className="hover:text-blue-500">
                       Term of Service
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:text-blue-500">
+                    <a href="/privacypolicy" className="hover:text-blue-500">
                       Privacy policy
                     </a>
                   </li>
@@ -121,19 +121,16 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="flex flex-col lg:gap-[7rem] space-y-4 bg-[#F8F8F8] p-5 rounded-lg">
-              <div className="flex flex-col items-start space-x-4 gap-[1rem]">
+            <div className="flex flex-col lg:gap-[7rem] space-y-4 bg-[#F8F8F8] p-6 rounded-lg">
+              <div className="flex flex-col items-start  gap-[1rem]">
                 <div>
                   <p className="text-sm">211B Bode Thort</p>
                   <p className="text-sm">Ikoyi, Lagos, Nigeria</p>
                 </div>
                 <div>
-                  <a
-                    href="mailto:hello@dolapo.ayeni.com"
-                    className="text-sm hover:text-blue-500"
-                  >
+                  <p className="text-sm hover:text-blue-500">
                     hello@dolapo.ayeni.com
-                  </a>
+                  </p>
                   <p className="text-sm mt-1">+234 703 939 6881</p>
                 </div>
               </div>
