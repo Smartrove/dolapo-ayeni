@@ -1,66 +1,74 @@
 export const SponsorsData = [
   {
-    logo: "/assets/alt-bank.svg",
+    logo: "/assets/google.svg",
     width: 120,
   },
   {
-    logo: "/assets/kinpex.svg",
+    logo: "/assets/pitch.svg",
     width: 120,
   },
   {
-    logo: "/assets/stecs.svg",
+    logo: "/assets/bubble.svg",
     width: 60,
   },
   {
-    logo: "/assets/sheerah.svg",
+    logo: "/assets/coda.svg",
     width: 120,
   },
   {
-    logo: "/assets/meenah.jpg",
+    logo: "/assets/circle.svg",
     width: 120,
   },
   {
-    logo: "/assets/kimsheedah.jpg",
+    logo: "/assets/dokey.svg",
     width: 120,
   },
   {
-    logo: "/assets/kathrah.jpg",
+    logo: "/assets/voiceflow.svg",
     width: 120,
   },
   {
-    logo: "/assets/yalla.jpg",
+    logo: "/assets/glide.svg",
     width: 120,
   },
   {
-    logo: "/assets/alt-bank.svg",
+    logo: "/assets/make.svg",
     width: 120,
   },
   {
-    logo: "/assets/kinpex.svg",
+    logo: "/assets/google.svg",
     width: 120,
   },
   {
-    logo: "/assets/stecs.svg",
+    logo: "/assets/pitch.svg",
+    width: 120,
+  },
+  {
+    logo: "/assets/bubble.svg",
     width: 60,
   },
   {
-    logo: "/assets/sheerah.svg",
+    logo: "/assets/coda.svg",
     width: 120,
   },
   {
-    logo: "/assets/meenah.jpg",
+    logo: "/assets/circle.svg",
     width: 120,
   },
   {
-    logo: "/assets/kimsheedah.jpg",
+    logo: "/assets/dokey.svg",
     width: 120,
   },
   {
-    logo: "/assets/kathrah.jpg",
+    logo: "/assets/voiceflow.svg",
     width: 120,
   },
   {
-    logo: "/assets/yalla.jpg",
+    logo: "/assets/glide.svg",
+    width: 120,
+  },
+  {
+    logo: "/assets/make.svg",
     width: 120,
   },
 ];

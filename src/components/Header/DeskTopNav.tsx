@@ -15,7 +15,7 @@ const DeskTopNav = () => {
           as={Link}
           href={item.link}
           key={index}
-          fontSize={"18px"}
+          fontSize={"14px"}
           fontWeight={"400"}
           fontFamily={"Poppins"}
           _hover={{

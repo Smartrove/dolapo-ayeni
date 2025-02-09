@@ -35,7 +35,7 @@ const Header = () => {
           >
             Contact Us
           </p>
-          <div className="bg-[#0286F1] rounded-full p-4">
+          <div className="hidden md:block bg-[#0286F1] rounded-full p-4">
             <GoArrowUpRight color="#fff" />
           </div>
         </div>

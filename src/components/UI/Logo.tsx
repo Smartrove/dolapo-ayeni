@@ -23,7 +23,7 @@ const LogoWhite = () => {
       alt=""
       width={500}
       height={500}
-      src="/TT Blue 1 (1).png"
+      src="/assets/white-logo.svg"
       className=" w-[150px] lg:w-[150px]"
     />
   );
