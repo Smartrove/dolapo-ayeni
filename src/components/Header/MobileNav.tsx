@@ -1,4 +1,4 @@
-import { Stack, useDisclosure, Flex, Link } from "@chakra-ui/react";
+import { Stack, useDisclosure, Flex } from "@chakra-ui/react";
 import { MobileNavLinks } from "../../data/NavLinks";
 
 const MobileNav = () => {
@@ -24,29 +24,19 @@ const MobileNavItem = ({
 }) => {
   const { onClose } = useDisclosure();
 
-  const {
-    isOpen: isOpenModal,
-    onOpen,
-    onClose: onCloseModal,
-  } = useDisclosure();
-
   return (
     <Stack spacing={4} onClick={children && onClose}>
       <Flex
         py={4}
-        as={
-          link && link !== "contactus" && link !== "location" ? Link : undefined
-        }
-        href={
-          link && link !== "contactus" && link !== "location" ? link : undefined
-        }
+        as={link}
+        href={link}
         justify={"space-between"}
         align={"center"}
         _hover={{
           textDecoration: "none",
         }}
         borderBottom={"0.5px solid rgba(175, 175, 175, 1)"}
-        onClick={link === "#vendor" && "#attendee" ? onOpen : undefined}
+        onClick={link}
       >
         <button className="text-[#15265E]">{navitem}</button>
       </Flex>

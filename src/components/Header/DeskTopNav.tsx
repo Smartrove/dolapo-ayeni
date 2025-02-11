@@ -1,4 +1,4 @@
-import { Flex, Text, Link, useDisclosure } from "@chakra-ui/react";
+import { Flex, Text, Link } from "@chakra-ui/react";
 import { NavLinks } from "../../data/NavLinks";
 
 const DeskTopNav = () => {

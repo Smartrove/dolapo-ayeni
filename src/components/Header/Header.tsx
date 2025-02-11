@@ -12,7 +12,6 @@ import MobileNav from "./MobileNav";
 import { IoIosMenu } from "react-icons/io";
 import { Logo } from "../UI/Logo";
 import { useNavigate } from "react-router-dom";
-import { Text } from "../UI/Typography";
 import { GoArrowUpRight } from "react-icons/go";
 
 const Header = () => {

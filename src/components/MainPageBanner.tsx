@@ -1,5 +1,4 @@
 import { BsArrowRightShort } from "react-icons/bs";
-import { CgArrowLongDown } from "react-icons/cg";
 import ClientButton from "./ClientButton";
 
 type BannerProps = {

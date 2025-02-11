@@ -1,4 +1,3 @@
-import React from "react";
 import { BsArrowRightShort } from "react-icons/bs";
 import { FaArrowUpLong } from "react-icons/fa6";
 
