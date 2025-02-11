@@ -6,4 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to bottom left, #81d8d0, #f0f8ff);
+  background-attachment: fixed;
 }

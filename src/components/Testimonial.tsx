@@ -86,29 +86,36 @@ function Testimonial() {
               <div
                 key={testimonial.id}
                 onClick={() => goToSlide(index)}
-                className={`relative cursor-pointer transition-all duration-300 ${
+                className={`relative flex items-center cursor-pointer transition-all duration-300 ${
                   index === currentIndex
-                    ? "ring-2 ring-blue-500 scale-110"
+                    ? "scale-110"
                     : "opacity-50 hover:opacity-75"
                 }`}
               >
-                <img
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  className="w-12 h-12 rounded-full object-cover"
-                />
-                {index === currentIndex && (
-                  <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2">
-                    <div className="bg-blue-500 text-xs px-3 py-1 rounded-full whitespace-nowrap">
-                      {testimonial.role}
+                {index === currentIndex ? (
+                  <div className="flex items-center bg-blue-900 text-white px-4 py-2 rounded-full">
+                    <img
+                      src={testimonial.image}
+                      alt={testimonial.name}
+                      className="w-10 h-10 rounded-full object-cover border border-white"
+                    />
+                    <div className="ml-2 text-xs">
+                      <p className="font-semibold">{testimonial.name}</p>
+                      <p className="text-gray-300">{testimonial.role}</p>
                     </div>
                   </div>
+                ) : (
+                  <img
+                    src={testimonial.image}
+                    alt={testimonial.name}
+                    className="w-12 h-12 rounded-full object-cover border border-white"
+                  />
                 )}
               </div>
             ))}
           </div>
 
-          <div className="bg-[#1e293b] rounded-2xl p-8 relative overflow-hidden">
+          <div className="bg-[#1e293b] border border-[#0286F1] rounded-2xl p-8 relative overflow-hidden">
             <div className="flex flex-col lg:flex-row gap-8 items-center justify-center w-full ">
               <img
                 src={testimonials[currentIndex].image}
@@ -116,7 +123,9 @@ function Testimonial() {
                 className="w-32 h-[100%] rounded-xl object-cover"
               />
               <div className="w-full lg:w-[680px]">
-                <h1 className="text-center text-2xl">Outstanding Service!</h1>
+                <h1 className="text-start text-2xl">
+                  ⭐️⭐️⭐️⭐️⭐️ Outstanding Service!
+                </h1>
                 <p className="text-[14px] leading-relaxed text-gray-300 mb-6">
                   {testimonials[currentIndex].content}
                 </p>

@@ -12,6 +12,9 @@ const theme = extendTheme({
     body: "'Poppins', sans-serif",
     heading: "'Poppins', sans-serif",
   },
+  background: {
+    backgroundImage: "linear-gradient(to bottom left, #f0f8ff, #81d8d0)",
+  },
 });
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
